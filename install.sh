@@ -54,7 +54,8 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm || true
 # EXTRA TOOLS
 # -----------------------------
 echo "[+] Installing extra tools..."
-pip3 install --user curlie
+curl -sS https://webi.sh/curlie | sh; \
+source ~/.config/envman/PATH.env
 
 # -----------------------------
 # DONE
