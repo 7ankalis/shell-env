@@ -26,7 +26,6 @@ plugins=(
   history
   docker
   docker-compose
-  zsh-lsd
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
